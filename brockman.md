@@ -44,4 +44,4 @@ install_github("Carldeboer/BrockmanR")
 ### Command line tools
 
 ### R library
-See [Brockman Examples](brockman_examples.md) for example analysis pipelines.
+See [Brockman Example](brockman_example.md) for example analysis pipelines.
