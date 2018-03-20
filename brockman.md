@@ -6,7 +6,7 @@
 Brockman is a suite of command line tools and R functions to convert genomics data into DNA k-mer words representing the regions associated with a chromatin mark, and then analyzing these k-mer sets to see how samples differ from each other.
 This approach is primarily intended for single cell genomics data, and was tested most extensively on single cell ATAC-seq data. The bash scripts in particular may require some alteration for other types of genomics data.
 
-## What are Broackman's dependencies?
+## What are Brockman's dependencies?
 The command line tools rely on the following, and assume the shell is Bash:
 * [Ruby](https://www.ruby-lang.org/en/)
 * [AMUSED](https://github.com/Carldeboer/AMUSED): for counting k-mers
