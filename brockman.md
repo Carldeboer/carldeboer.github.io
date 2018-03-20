@@ -26,9 +26,22 @@ TBD
 
 ### R library
 
+If you don't already have `devtools`, install it:
+```
+install.packages("devtools")
+```
+
+Load `devtools` and install from the GitHub page:
+
+```
+library(devtools)
+install_github("Carldeboer/BrockmanR")
+```
+
+
 ## Usage
 
 ### Command line tools
 
 ### R library
-
+See [Brockman Examples](brockman_examples.md) for example analysis pipelines.
