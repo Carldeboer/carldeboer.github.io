@@ -26,12 +26,12 @@ The R analysis tools rely on the following packages:
 At present, only anaconda installation is supported. If you haven't yet learned how to use anaconda, there's no time like the present!
 #### Linux:
 ```bash
-conda create -c bioconda -n BrockmanEnv  ruby samtools bedtools ucsc-twobittofa bowtie2 amused brockman
+conda create -c bioconda -n BrockmanEnv  ruby samtools bedtools ucsc-twobittofa bowtie2 amused trimmomatic brockman
 ```
 #### OSX:
 OSX already has ruby installed and including it in the conda environment appears to break ruby due to some missing libraries
 ```bash
-conda create -c bioconda -n BrockmanEnv  samtools bedtools ucsc-twobittofa bowtie2 amused brockman
+conda create -c bioconda -n BrockmanEnv  samtools bedtools ucsc-twobittofa bowtie2 amused trimmomatic brockman
 ```
 
 ### R library
