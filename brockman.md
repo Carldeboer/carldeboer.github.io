@@ -20,9 +20,19 @@ The R analysis tools rely on the following packages:
 * [tsne](https://cran.r-project.org/web/packages/tsne/tsne.pdf)
 
 ## Installation
-TBD
+
 ### Command line tools
 
+Anaconda installation:
+#### Linux:
+```bash
+conda create -c bioconda -n BrockmanEnv  ruby samtools bedtools ucsc-twobittofa bowtie2 amused brockman
+```
+#### OSX:
+OSX already has ruby installed and including it in the conda environment appears to break ruby due to some missing libraries
+```bash
+conda create -c bioconda -n BrockmanEnv  samtools bedtools ucsc-twobittofa bowtie2 amused brockman
+```
 
 ### R library
 
@@ -42,6 +52,14 @@ install_github("Carldeboer/BrockmanR")
 ## Usage
 
 ### Command line tools
+The command line tool is a bash pipeline originally aiming to be used with a job scheduler, submitted as an array job. Thus, the script takes as input a table of samples (detailed below, one sample per line), the specific sample line number to do (starting from 1), 
+
+#### Important notes:
+* This is a pipeline designed for sc-ATAC-seq data.  Other data types will require modifications to the pipeline.  Please start an issue for recommended modifications and we will include modified pipelines as required/requested.
+* These pipelines are designed to be robust to failure and will only try to redo a step if the previous step failed. Accordingly, if a step fails or needs to be modified, the products of that step must first be deleted before the script will attempt to re-create them.
+  * If you need to redo a step, make sure to delete the files produced at this step and all subsequent files that depend on that step (which will not be recreated otherwise).
+  * Once the pipeline has completed successfully, it creates a file <tempDir>/<sampleID>.done which must be deleted before the pipeline will attempt to re-run this sample.
+
 
 ### R library
-See [Brockman Example](brockman_example.md) for example analysis pipelines.
+See [Brockman Analysis Example](brockman_example.md) for example analysis pipelines.
