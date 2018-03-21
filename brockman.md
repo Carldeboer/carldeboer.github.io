@@ -23,7 +23,7 @@ The R analysis tools rely on the following packages:
 
 ### Command line tools
 
-Anaconda installation:
+At present, only anaconda installation is supported. If you haven't yet learned how to use anaconda, there's no time like the present!
 #### Linux:
 ```bash
 conda create -c bioconda -n BrockmanEnv  ruby samtools bedtools ucsc-twobittofa bowtie2 amused brockman
