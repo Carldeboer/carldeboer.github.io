@@ -1,5 +1,7 @@
-# Example Brockman analysis in R
+# Brockman analysis (R)
+![Kenny B](/images/g4160.png)
 
+See [installation](brockman.md#installation) for notes on how to install BrockmanR.
 
 ```R
 #Load sample information
