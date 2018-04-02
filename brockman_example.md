@@ -1,6 +1,8 @@
 # Brockman analysis (R)
 ![Kenny B](/images/g4160.png)
 
+Below is an example for how to use the BrockmanR package for decomposing/clustering cells/samples using k-mer frequencies, and interpreting the components.
+
 See [installation](brockman.md#installation) for notes on how to install BrockmanR.
 
 ```R
