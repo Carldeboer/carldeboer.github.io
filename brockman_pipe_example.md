@@ -3,7 +3,7 @@
 
 The command line tool is a bash pipeline originally aiming to be used with a job scheduler, submitted as an array job. Thus, the script takes as input a table of samples (detailed below, one sample per line), the specific sample line number to do (starting from 1), 
 
-See [installation](brockman.md) for notes on how to install Brockman.
+See [installation](brockman.md#installation) for notes on how to install Brockman.
 
 ## Usage notes
 
