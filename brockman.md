@@ -6,6 +6,8 @@
 Brockman is a suite of command line tools and R functions to convert genomics data into DNA k-mer words representing the regions associated with a chromatin mark, and then analyzing these k-mer sets to see how samples differ from each other.
 This approach is primarily intended for single cell genomics data, and was tested most extensively on single cell ATAC-seq data. The bash scripts in particular may require some alteration for other types of genomics data.
 
+A preprint describing the approach is available [here](https://www.biorxiv.org/content/early/2018/04/03/129247).
+
 ## What are Brockman's dependencies?
 The command line tools rely on the following, and assume the shell is Bash:
 * [Ruby](https://www.ruby-lang.org/en/)
@@ -53,3 +55,9 @@ See [Brockman_pipeline Example](brockman_pipe_example.md) for example data proce
 
 ### R library
 See [Brockman Analysis Example](brockman_example.md) for example analysis pipelines.
+
+## Citation
+
+Please cite the [Brockman preprint](https://www.biorxiv.org/content/early/2018/04/03/129247) if you find Brockman useful.
+
+Carl de Boer, Aviv Regev. *BROCKMAN: Deciphering variance in epigenomic regulators by k-mer factorization*. bioRxiv 129247; doi: https://doi.org/10.1101/129247
