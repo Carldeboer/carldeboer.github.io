@@ -58,6 +58,6 @@ See [Brockman Analysis Example](brockman_example.md) for example analysis pipeli
 
 ## Citation
 
-Please cite the [Brockman preprint](https://www.biorxiv.org/content/early/2018/04/03/129247) if you find Brockman useful.
+Please cite [BROCKMAN](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2255-6) if you find Brockman useful.
 
-Carl de Boer, Aviv Regev. *BROCKMAN: Deciphering variance in epigenomic regulators by k-mer factorization*. bioRxiv 129247; doi: https://doi.org/10.1101/129247
+Carl G. de Boer, Aviv Regev. *BROCKMAN: deciphering variance in epigenomic regulators by k-mer factorization*. BMC Bioinformatics. (2018) 19:253;
